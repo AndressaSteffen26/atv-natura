@@ -28,7 +28,7 @@ header nav ul li a.menu-atual{
     padding: 5px 20px 5px 20px;
     border-radius: 20px;
 }
-/*============== BANNER ================*/
+/*============== CONTEÚDO ================*/
 section.banner{
     padding: 30vw 10vw 7vw 10vw;
     background:linear-gradient(rgba(128,189,154,0.2), rgba(128,189,154,0.2)), url(../imagens/back-banner.png) no-repeat center center;
@@ -40,4 +40,105 @@ section.banner h2{
     background: rgba(59, 134, 134, 0.5);
     width: 40%;
     padding: 10px 20px 10px 20px;
+}
+section.lista{
+    padding: 5vw 10vw 5vw 10vw;
+}
+section.lista ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.lista ul li{
+    width: 25%;
+}
+section.lista ul li span{
+    font-size: 3rem;
+    color: #3B8686;
+}
+section.lista ul li h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+section.lista ul li p{
+    color:#747474;
+}
+section.lista ul li a{
+    background-color: #3B8686;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 30px 0 0 0;
+}
+section.banner-servicos{
+    padding: 6vw 10vw 3vw 10vw;
+    background:linear-gradient(rgba(121,189,154,0.5), rgba(128,189,154,0.2)), url(../imagens/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+section.banner-servicos ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.banner-servicos ul li{
+    width: 25%;
+}
+section.banner-servicos ul li span{
+    font-size: 2.8rem;
+    color:white;
+}
+section.banner-servicos ul li p{
+    font-size: 2rem;
+    color:white;
+    padding: 20px 15px 20px 15px;
+}
+section.possibilidades{
+    display: flex;
+    margin: 5vw 10vw 5vw 10vw;
+}
+section.possibilidades div h3{
+    font-size: 2rem;
+    color: #0B486B;
+}
+section.possibilidades div p{
+    color: #747474;
+    padding: 20px 15vw 20px 0;
+    text-align: left;
+}
+section.possibilidades div p a{
+    background-color: #0B486B;
+    padding: 10px 15px 10px 15px;
+    margin: 0 5px 0 0;
+}
+/*============== RODAPÉ ================*/
+footer{
+    background-color: #3B8686;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 8vw 3vw 8vw;
+}
+footer div.icones ul{
+    display: flex;
+}
+footer div.icones ul li{
+    padding: 10px 10px 10px 0;
+}
+footer div.icones ul li span{
+    font-size: 1.5rem;
+}
+footer div.contato p.titulo{
+    font-weight: bold;
+    padding: 0 0 8px 0;
+}
+footer div.contato ul li{
+    display: flex;
+    padding: 5px;
+}
+footer div.contato ul li span{
+    padding: 0 8px 0 0;
+}
+footer div.paginas nav ul li{
+    padding: 20px 0 0 0;
+    text-align: right;
 }
